@@ -799,7 +799,68 @@ const dictionary = {
 "thay đổi": "改变",
 "cộng đồng": "社区"
 };
-
+const quizData = [
+    {
+        question: "Theo đoạn trích, Việt Nam đứng thứ mấy trong ASEAN về tỷ lệ người hút thuốc lá?",
+        options: ["Thứ nhất", "Thứ hai", "Thứ ba", "Thứ tư"],
+        correct: "Thứ ba"
+    },
+    {
+        question: "Theo đoạn trích, thuốc lá có ảnh hưởng như thế nào đến sức khỏe con người?",
+        options: ["Gây ra các bệnh nhẹ", "Không ảnh hưởng đến sức khỏe", "Gây ảnh hưởng nghiêm trọng", "Chỉ gây ảnh hưởng khi hút nhiều"],
+        correct: "Gây ảnh hưởng nghiêm trọng"
+    },
+    {
+        question: "Theo đoạn trích, vì sao nhiều thanh thiếu niên hút thuốc lá?",
+        options: ["Để giải tỏa căng thẳng", "Để thể hiện bản thân", "Do nghiện nicotine", "Do văn hóa giao lưu"],
+        correct: "Để thể hiện bản thân"
+    },
+    {
+        question: "Theo đoạn trích, Chính phủ đã thực hiện biện pháp gì để giảm tiêu thụ thuốc lá?",
+        options: ["Giảm thuế thuốc lá", "Tăng thuế thuốc lá", "Phát thuốc lá miễn phí", "Khuyến khích hút thuốc lá"],
+        correct: "Tăng thuế thuốc lá"
+    },
+    {
+        question: "Theo đoạn trích, thuốc lá gây ra gánh nặng kinh tế lớn như thế nào?",
+        options: ["Chi phí liên quan đến các bệnh do thuốc lá là hàng trăm nghìn tỷ đồng mỗi năm", "Chi phí liên quan đến các bệnh do thuốc lá là hàng triệu đồng mỗi năm", "Chi phí liên quan đến các bệnh do thuốc lá là hàng tỷ đồng mỗi năm", "Không gây ra gánh nặng kinh tế"],
+        correct: "Chi phí liên quan đến các bệnh do thuốc lá là hàng trăm nghìn tỷ đồng mỗi năm"
+    },
+    {
+        question: "Từ “phòng chống” trong đoạn trích có thể được thay thế bằng từ nào dưới đây?",
+        options: ["Khuyến khích", "Ngăn ngừa", "Tăng cường", "Hỗ trợ"],
+        correct: "Ngăn ngừa"
+    },
+    {
+        question: "Theo đoạn trích, tỷ lệ người trưởng thành hút thuốc lá đã thay đổi như thế nào từ năm 2015 đến 2023?",
+        options: ["Tăng mạnh", "Giảm nhẹ", "Không thay đổi", "Tăng nhẹ"],
+        correct: "Giảm nhẹ"
+    },
+    {
+        question: "Theo đoạn trích, nicotine trong thuốc lá có đặc điểm gì?",
+        options: ["Không gây nghiện", "Gây nghiện", "Chỉ gây nghiện khi hút nhiều", "Không ảnh hưởng đến hệ thần kinh"],
+        correct: "Gây nghiện"
+    },
+    {
+        question: "Trong bốn câu sau đây, câu nào là câu sai/không đúng ngữ pháp?",
+        options: ["Thuốc lá gây ảnh hưởng nghiêm trọng đến sức khỏe con người.", "Thuốc lá không có ảnh hưởng đến sức khỏe con người.", "Thuốc lá gây ảnh hưởng nghiêm trọng đến sức khỏe con người.", "Thuốc lá gây ảnh hưởng nghiêm trọng đến sức khỏe con người."],
+        correct: "Thuốc lá không có ảnh hưởng đến sức khỏe con người."
+    },
+    {
+        question: "Theo đoạn trích, Bộ Y tế và các cơ quan đã làm gì để phòng chống tác hại của thuốc lá?",
+        options: ["Khuyến khích sử dụng thuốc lá", "Nỗ lực phòng chống tác hại của thuốc lá", "Không thực hiện biện pháp nào", "Tăng cường sản xuất thuốc lá"],
+        correct: "Nỗ lực phòng chống tác hại của thuốc lá"
+    },
+    {
+        question: "Theo đoạn trích, văn hóa giao lưu có tác động gì đến việc hút thuốc lá?",
+        options: ["Không có tác động gì", "Khiến mọi người hút thuốc lá nhiều hơn", "Giúp giảm tỷ lệ hút thuốc lá", "Làm tăng giá thuốc lá"],
+        correct: "Khiến mọi người hút thuốc lá nhiều hơn"
+    },
+    {
+        question: "Theo đoạn trích, để giảm tỷ lệ hút thuốc lá, mỗi cá nhân cần làm gì?",
+        options: ["Khuyến khích người khác hút thuốc", "Nhận thức rõ tác hại của thuốc lá", "Tăng tiêu thụ thuốc lá", "Tìm cách hút thuốc lá nhiều hơn"],
+        correct: "Nhận thức rõ tác hại của thuốc lá"
+    }
+];
 
         // Xử lý hiển thị văn bản với từ điển
         const content = document.getElementById('content');
